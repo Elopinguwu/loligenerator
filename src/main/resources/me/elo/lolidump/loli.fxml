@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.elo.lolidump.controllers.MainController">
+   <center>
+      <ImageView fx:id="img" fitHeight="548.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Button fx:id="gen" onMouseClicked="#newImg" mnemonicParsing="false" prefHeight="32.0" prefWidth="69.0" style="-fx-background-color: #444;" text="Generate" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Microsoft YaHei" size="12.0" />
+         </font>
+      </Button>
+   </bottom>
+</BorderPane>
